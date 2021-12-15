@@ -1,0 +1,7 @@
+설치
+sudo apt-get install gdb
+설정
+echo "set disassembly-flavor intel" >> ~/.gdbinit
+보기
+gbd ./파일명.o
+disas main
